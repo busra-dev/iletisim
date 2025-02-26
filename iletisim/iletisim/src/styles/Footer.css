@@ -1,0 +1,158 @@
+.section-padding {
+    padding: 0rem 4rem;
+}
+
+.footer {
+    background-color: rgb(26, 25, 25);
+    width: 100%;
+    height: 340px;
+    bottom: 0rem;
+}
+
+.sb-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb-footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.2rem;
+}
+
+.sb-footer-links-div {
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.logo-container {
+    gap: 2px;
+    display: block;
+}
+
+.logo-container img {
+    height: 20vh;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-container h6 {
+    color: #696969;
+    padding-left: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sosyalmedya {
+    display: flex;
+    flex-direction: none;
+}
+
+.sosyalmedya img {
+    width: 70%;
+}
+
+.sb-footer-links-div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.sb-footer-links-div p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0px;
+    cursor: pointer;
+}
+
+.sb-footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.2rem;
+}
+
+.sb-footer-below-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.sb-footer-below-links p {
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.sb-footer-copyright p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #696969;
+    font-weight: 600;
+
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(20, 232, 20);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    .sb-footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .sb-footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .sb-footer-links div {
+        margin: 1rem 0;
+    }
+
+    .sb-footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sb-footer-below {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sb-footer-below-links {
+        flex-direction: column;
+    }
+
+    .sb-footer-below-links p {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sb-footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
